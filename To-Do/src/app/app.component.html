@@ -1,0 +1,5 @@
+
+<app-input (newTask)="addTaskToList($event)"></app-input>
+
+
+<app-output [toDoTasks]="getToDoTasks()" [completedTasks]="getCompletedTasks()" (markAsDone)="completedTask($event)" (deleteTask)="deleteTask($event)"></app-output>

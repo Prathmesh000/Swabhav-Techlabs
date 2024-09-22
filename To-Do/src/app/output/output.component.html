@@ -1,0 +1,23 @@
+
+  
+  <div class="container" style="margin-top: 20px;">
+ 
+    <h2 style="text-align: center; margin-top: 15px; font-style: italic;">Tasks to be Done</h2>
+    <ul class="list-group list-group-numbered">
+      <li class="list-group-item list-group-item-primary" *ngFor="let task of toDoTasks">
+        {{ task.name }}
+        <button class="btn btn-success" (click)="onMarkAsDone(task.id)" style="margin-left: 10px;">Mark as Done</button>
+        <button class="btn btn-danger" (click)="onDeleteTask(task.id)" style="margin-left: 10px;">Delete</button>
+      </li>
+    </ul>
+  
+<hr>
+    <h2 style="text-align: center; margin-top: 15px; font-style: italic;">Completed Tasks</h2>
+    <ul class="list-group list-group-numbered">
+      <li class="list-group-item list-group-item-primary" *ngFor="let task of completedTasks" style="text-decoration: line-through;">
+        {{ task.name }}
+        <button class="btn btn-danger" (click)="onDeleteTask(task.id)" style="margin-left: 10px;">Delete</button>
+      </li>
+    </ul>
+  </div>
+  
