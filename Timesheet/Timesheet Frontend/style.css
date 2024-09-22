@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+
+#view-button{
+  margin-top: 10px;
+  width: 100px;
+  float: right;
+  border-radius: 20px;
+  font-size: 10px;
+
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="date"],
+#on-leave,
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button{
+  width: 20%;
+  float: right;
+}
+
+.button-close{
+  float: right;
+}
+button,
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.activityBtn {
+  background-color: #007bff;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border: none;
+}
+
+.submitBtn {
+  background-color: #0b521c;
+  width: 300px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+#preview-btn {
+ 
+  background-color: #ffc107;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  width: 200px;
+  color: white;
+  border: none;
+}
+
+.activity-entry {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
