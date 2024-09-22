@@ -1,0 +1,42 @@
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 226, 204);
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    
+ 
+}
+.container-circles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.game-message {
+    display: none;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(58, 36, 3), rgb(216, 133, 8), rgb(240, 182, 96));
+    
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+}
+
+
+
+
